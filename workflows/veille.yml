@@ -1,0 +1,34 @@
+name: Veille trading Discord
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # toutes les 10 min (GitHub peut décaler de quelques minutes)
+  workflow_dispatch:          # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write             # pour enregistrer les infos déjà envoyées (vus.json)
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Passage de la veille
+        env:
+          VEILLE_WEBHOOKS: ${{ secrets.VEILLE_WEBHOOKS }}
+        run: python veille.py
+      - name: Enregistrer l'état
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "veille-bot@users.noreply.github.com"
+          git add vus.json etat.json calendrier_cache.json
+          git diff --cached --quiet || (git commit -m "etat veille" && git push)
