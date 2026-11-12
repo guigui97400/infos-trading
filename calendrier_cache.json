@@ -1,5 +1,5 @@
 {
- "t": 1794457187.542072,
+ "t": 1794488057.2119336,
  "data": [
   {
    "title": "RBA Assist Gov Hunter Speaks",
@@ -538,22 +538,6 @@
    "previous": ""
   },
   {
-   "title": "M2 Money Supply y/y",
-   "country": "CNY",
-   "date": "2026-11-12T04:03:00-05:00",
-   "impact": "Low",
-   "forecast": "7.2%",
-   "previous": "7.2%"
-  },
-  {
-   "title": "New Loans",
-   "country": "CNY",
-   "date": "2026-11-12T04:03:00-05:00",
-   "impact": "Low",
-   "forecast": "80B",
-   "previous": "1080B"
-  },
-  {
    "title": "Building Permits m/m",
    "country": "CAD",
    "date": "2026-11-12T08:30:00-05:00",
@@ -744,6 +728,22 @@
    "impact": "Low",
    "forecast": "-4.5B",
    "previous": "-6.8B"
+  },
+  {
+   "title": "M2 Money Supply y/y",
+   "country": "CNY",
+   "date": "2026-11-13T05:03:00-05:00",
+   "impact": "Low",
+   "forecast": "7.2%",
+   "previous": "7.2%"
+  },
+  {
+   "title": "New Loans",
+   "country": "CNY",
+   "date": "2026-11-13T05:03:00-05:00",
+   "impact": "Low",
+   "forecast": "80B",
+   "previous": "1080B"
   },
   {
    "title": "Manufacturing Sales m/m",
