@@ -1,5 +1,5 @@
 {
- "t": 1794488057.2119336,
+ "t": 1794515626.1859274,
  "data": [
   {
    "title": "RBA Assist Gov Hunter Speaks",
@@ -578,14 +578,6 @@
    "previous": ""
   },
   {
-   "title": "Mortgage Delinquencies",
-   "country": "USD",
-   "date": "2026-11-12T10:00:00-05:00",
-   "impact": "Low",
-   "forecast": "",
-   "previous": "4.37%"
-  },
-  {
    "title": "CB Leading Index m/m",
    "country": "AUD",
    "date": "2026-11-12T10:30:00-05:00",
@@ -800,6 +792,14 @@
    "impact": "Low",
    "forecast": "",
    "previous": ""
+  },
+  {
+   "title": "Mortgage Delinquencies",
+   "country": "USD",
+   "date": "2026-11-13T10:15:00-05:00",
+   "impact": "Low",
+   "forecast": "",
+   "previous": "4.37%"
   },
   {
    "title": "Natural Gas Storage",
