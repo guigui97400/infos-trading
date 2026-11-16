@@ -1,5 +1,5 @@
 {
- "t": 1794822438.3756385,
+ "t": 1794858877.5341039,
  "data": [
   {
    "title": "BusinessNZ Services Index",
@@ -164,7 +164,7 @@
   {
    "title": "Cleveland Fed Inflation Expectations",
    "country": "USD",
-   "date": "2026-11-16T09:48:00-05:00",
+   "date": "2026-11-16T09:45:00-05:00",
    "impact": "Low",
    "forecast": "",
    "previous": "3.3%"
@@ -791,7 +791,7 @@
    "date": "2026-11-19T10:30:00-05:00",
    "impact": "Low",
    "forecast": "",
-   "previous": ""
+   "previous": "61B"
   },
   {
    "title": "FOMC Member Goolsbee Speaks",
