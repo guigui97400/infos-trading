@@ -1,5 +1,5 @@
 {
- "t": 1795570760.1534133,
+ "t": 1795602462.5828528,
  "data": [
   {
    "title": "Core Retail Sales q/q",
@@ -406,7 +406,7 @@
    "country": "USD",
    "date": "2026-11-25T10:30:00-05:00",
    "impact": "Low",
-   "forecast": "",
+   "forecast": "2.0M",
    "previous": "3.4M"
   },
   {
